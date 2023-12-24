@@ -1,0 +1,17 @@
+
+path: /content/VisDrone/datasets # dataset root dir
+train: train/images  # (relative to 'path')
+val: val/images  
+
+# Classes
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
